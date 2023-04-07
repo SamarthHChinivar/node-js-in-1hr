@@ -4,8 +4,9 @@ const fs = require('fs');
 const port = 2000;
 const host = 'localhost';
 const home = fs.readFileSync('./index.html');
-const batman = fs.readFileSync('./superheros/batman.html');
-const superman = fs.readFileSync('./superheros/superman.html');
+
+// const batman = fs.readFileSync('./superheros/batman.html');
+// const superman = fs.readFileSync('./superheros/superman.html');
 
 console.log(__dirname);
 console.log(__filename);
