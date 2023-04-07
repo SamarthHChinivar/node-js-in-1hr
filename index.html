@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assests/favicon.ico">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    
+    <title>Node</title>
+
+    <style>
+        .home{
+                /* background-image: url('./assests/node.jpg'); */
+                color: black;
+                height: 100vh;
+                margin: 0%;
+                background-size: cover;
+            }
+
+        li{
+            list-style: none;
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 1rem;
+            border: 1px solid green;
+            width: 10rem;
+            text-align: center;
+            margin-left: 45%;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+
+        li:hover{
+            background-color: yellow;
+            color: black;
+        }
+
+        /* Media queries for phones */
+        @media screen and (max-width: 600px) {
+            li{
+                margin-left: 10%;
+            }
+        }
+
+        /* Media queries for tablets */
+        @media screen and (max-width: 1024px) {
+            li{
+                margin-left: 35%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="home">
+    <ul>
+        <li><a href="/">Home</a></li> <br/>
+        <li><a href="/about">About</a></li> <br/>
+        <li><a href="/contact">Contact</a></li> <br/>
+        <!-- <li><a href="/batman">Batman</a></li> <br/>
+        <li><a href="/superman">Superman</a></li> <br/> -->
+    </ul>
+   </div>
+
+</body>
+</html>
