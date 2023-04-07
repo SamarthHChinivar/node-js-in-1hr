@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 
 const port = 2000;
-const host = 'localhost';
+// const host = 'localhost';
 const home = fs.readFileSync('./index.html');
 
 // const batman = fs.readFileSync('./superheros/batman.html');
@@ -42,6 +42,6 @@ const server = http.createServer((req, res) => {
 
 
 
-server.listen(port, host, () => {
-    console.log(`Server is running on http://${host}:${port}`);
+server.listen(port, () => {
+    console.log(`Server is working`);
 });
